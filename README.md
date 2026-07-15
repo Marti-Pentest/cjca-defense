@@ -43,13 +43,31 @@ cjca-defense/
 
 ## 📝 Formato de las notas
 
-Cada archivo sigue una estructura pensada para repaso rápido tipo Obsidian:
+Cada archivo sigue una estructura pensada para repaso rápido, usando **GitHub Flavored Markdown**:
 
-- **Callouts** (`> [!note]`, `> [!tip]`, `> [!warning]`) para conceptos clave, tips y advertencias
+- **Alerts** (`> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`) para conceptos clave, tips y advertencias
 - **Bloques de código** con todos los comandos/filtros/sintaxis relevante
 - **Tablas** para comparativas (protocolos, switches, filtros)
-- **Quiz de repaso** en formato pregunta/respuesta plegable al final de cada sección
-- **Tags** al estilo Obsidian para conectar temas relacionados
+- **Quiz de repaso** en bloques `<details>` plegables al final de cada sección
+- **Tags** al final de cada nota para conectar temas relacionados
+
+## 📖 Índice — Módulo 16: Intro to Network Traffic Analysis
+
+1. [Análisis de Tráfico de Red](01-network-traffic-analysis/01-intro-nta.md)
+2. [Networking Primer — Capas 1-4](01-network-traffic-analysis/02-networking-primer-l1-4.md)
+3. [Networking Primer — Capas 5-7](01-network-traffic-analysis/03-networking-primer-l5-7.md)
+4. [El Proceso de Análisis](01-network-traffic-analysis/04-analysis-process.md)
+5. [Análisis en la Práctica](01-network-traffic-analysis/05-analysis-practice.md)
+6. [Fundamentos de Tcpdump](01-network-traffic-analysis/06-tcpdump-fundamentals.md)
+7. [Lab: Capturing With Tcpdump](01-network-traffic-analysis/07-tcpdump-lab-fundamentals.md)
+8. [Filtrado de Paquetes con Tcpdump](01-network-traffic-analysis/08-tcpdump-packet-filtering.md)
+9. [Lab: Interrogating Network Traffic](01-network-traffic-analysis/09-tcpdump-lab-interrogating-traffic.md)
+10. [Análisis con Wireshark](01-network-traffic-analysis/10-wireshark-analysis.md)
+11. [Lab: Familiarity With Wireshark](01-network-traffic-analysis/11-wireshark-familiarity-lab.md)
+12. [Uso Avanzado de Wireshark](01-network-traffic-analysis/12-wireshark-advanced-usage.md)
+13. [Lab: Packet Inception](01-network-traffic-analysis/13-wireshark-packet-inception-lab.md)
+14. [Guided Lab: Traffic Analysis Workflow](01-network-traffic-analysis/14-guided-lab-traffic-analysis-workflow.md)
+15. [Decrypting RDP Connections](01-network-traffic-analysis/15-decrypting-rdp-connections.md)
 
 ## ⚠️ Disclaimer
 
