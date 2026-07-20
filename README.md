@@ -9,10 +9,13 @@ Vengo del lado ofensivo (ya tengo la **CPTS**), así que estas notas están escr
 | # | Módulo | Estado |
 |---|--------|--------|
 | 16 | Intro to Network Traffic Analysis | ✅ Completo |
-| 17 | Incident Handling Process | 🟡 En progreso (2/11 secciones) |
+| 17 | Incident Handling Process | ⏳ Pendiente (se publicará cuando esté completo) |
 | 18 | Windows Event Logs & Finding Evil | ✅ Completo |
 | 19 | Security Monitoring & SIEM Fundamentals | ✅ Completo |
-| 20 | Introduction to Threat Hunting | ⏳ Pendiente |
+| 20 | Introduction to Threat Hunting & Hunting With Elastic | 🟡 Casi completo (falta Sección 4) |
+
+> [!NOTE]
+> El Módulo 17 no está publicado todavía (solo tenía 2/11 secciones documentadas) — se subirá cuando esté completo. Por eso la numeración de carpetas salta del 01 al 03.
 
 ## 🗂️ Estructura del repo
 
@@ -20,10 +23,9 @@ Vengo del lado ofensivo (ya tengo la **CPTS**), así que estas notas están escr
 cjca-defense/
 ├── README.md
 ├── 01-network-traffic-analysis/       (15 secciones)
-├── 02-incident-handling-process/      (2/11 secciones)
 ├── 03-windows-event-logs/             (6 secciones)
 ├── 04-security-monitoring-siem/       (11 secciones)
-└── 05-threat-hunting/                 (próximamente)
+└── 05-threat-hunting/                 (5/6 secciones)
 ```
 
 ## 📝 Formato de las notas
@@ -35,7 +37,7 @@ Cada archivo sigue una estructura pensada para repaso rápido, usando **GitHub F
 - **Tablas** para comparativas (protocolos, switches, filtros, Event IDs)
 - **Quiz de repaso** en bloques `<details>` plegables al final de cada sección
 - **Tags** al final de cada nota para conectar temas relacionados
-- **Diagramas Mermaid** para flujos y arquitecturas (kill chain, ciclo de vida IR, ETW, SIEM data flow)
+- **Diagramas Mermaid** para flujos y arquitecturas (kill chain, ciclo de vida IR, ETW, SIEM data flow, cadenas de ataque)
 
 ## 📖 Índice — Módulo 16: Intro to Network Traffic Analysis
 
@@ -54,11 +56,6 @@ Cada archivo sigue una estructura pensada para repaso rápido, usando **GitHub F
 13. [Lab: Packet Inception](01-network-traffic-analysis/13-wireshark-packet-inception-lab.md)
 14. [Guided Lab: Traffic Analysis Workflow](01-network-traffic-analysis/14-guided-lab-traffic-analysis-workflow.md)
 15. [Decrypting RDP Connections](01-network-traffic-analysis/15-decrypting-rdp-connections.md)
-
-## 📖 Índice — Módulo 17: Incident Handling Process *(en progreso)*
-
-1. [Incident Handling](02-incident-handling-process/01-incident-handling.md)
-2. [Cyber Kill Chain](02-incident-handling-process/02-cyber-kill-chain.md)
 
 ## 📖 Índice — Módulo 18: Windows Event Logs & Finding Evil
 
@@ -82,6 +79,15 @@ Cada archivo sigue una estructura pensada para repaso rápido, usando **GitHub F
 9. [SIEM Visualization Example 4: Group Membership Changes](04-security-monitoring-siem/09-siem-visualization-example-4-group-membership-changes.md)
 10. [The Triaging Process](04-security-monitoring-siem/10-the-triaging-process.md)
 11. [Skills Assessment](04-security-monitoring-siem/11-skills-assessment.md)
+
+## 📖 Índice — Módulo 20: Introduction to Threat Hunting & Hunting With Elastic *(falta Sección 4)*
+
+1. [Threat Hunting Fundamentals](05-threat-hunting/01-threat-hunting-fundamentals.md)
+2. [The Threat Hunting Process](05-threat-hunting/02-the-threat-hunting-process.md)
+3. [Threat Hunting Glossary](05-threat-hunting/03-threat-hunting-glossary.md)
+4. *(pendiente)*
+5. [Hunting For Stuxbot](05-threat-hunting/05-hunting-for-stuxbot.md)
+6. [Skills Assessment: Hunting For Stuxbot Round 2](05-threat-hunting/06-skills-assessment-stuxbot-round-2.md)
 
 ## ⚠️ Disclaimer
 
